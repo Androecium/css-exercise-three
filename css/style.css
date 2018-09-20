@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+  }
 body {
   background-color: #333333;
   font-family: sans-serif;
@@ -11,15 +14,14 @@ nav {
 .restaurant-list {
   padding-top: 50px;
 }
+.arrow {
+  float: right;
+}
 .location {
   height: 100px;
   padding: 10px;
   background-color: #dedede;
   border-bottom: solid #969696;
-  box-sizing: border-box;
-}
-.arrow {
-  float: right;
 }
 .container {
   margin: 0 auto;
@@ -33,6 +35,6 @@ nav {
   background-color: #b3b3b3;
 }
 .content h1{
-  font-size: 200%
+  font-size: 200%;
   line-height: .5;
 }
